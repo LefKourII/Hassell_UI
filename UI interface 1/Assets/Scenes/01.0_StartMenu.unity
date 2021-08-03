@@ -1789,7 +1789,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7285039941691575108, guid: d5a24113c87017941a78f7078738e7c5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: 01.0_StartMenu
+      value: 00_HomePage1
       objectReference: {fileID: 0}
     - target: {fileID: 7285039941691575109, guid: d5a24113c87017941a78f7078738e7c5, type: 3}
       propertyPath: m_Sprite
