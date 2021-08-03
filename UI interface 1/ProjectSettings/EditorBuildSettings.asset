@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/00_HomePage1.unity
+    guid: f30c061009747ff429a7c6f24dee93df
+  - enabled: 1
+    path: Assets/Scenes/02_AboutPage.unity
+    guid: 5a135073fc7304248a73e897cf1c8e0d
+  - enabled: 1
+    path: Assets/Scenes/01.0_StartMenu.unity
+    guid: 53650de6c6688ae4f882de110d9c3e94
+  - enabled: 1
+    path: Assets/Scenes/01.2.0_Menu_OnSiteExp.unity
+    guid: f6e6abd869fd39940a5bcc5d8515a529
+  - enabled: 1
+    path: Assets/Scenes/01.1.0_Menu_DesignProcess.unity
+    guid: 7312ce42d9c4857469ad55c6cc96cc1a
+  - enabled: 1
+    path: Assets/Scenes/01.3.0_Menu_OffSiteExp.unity
+    guid: 8f55803e923a7be4ead7425c71beb7f2
+  - enabled: 1
+    path: Assets/Scenes/01.3.1_ModuleLCA.unity
+    guid: a38174bc68fbae04b941bc6b4665fdcc
+  - enabled: 1
+    path: Assets/Scenes/01.3.2_PavilionLCA.unity
+    guid: 228a4d3213208a64589f7932585f35e8
+  - enabled: 1
+    path: Assets/Scenes/01.3.3_ARProjection.unity
+    guid: 4c94a6afbff273842862c69d6266606d
+  - enabled: 1
+    path: Assets/Scenes/01.2.1_AR_InfoDisplay.unity
+    guid: 3548d3779d1a29b4c868e589ce460dc0
+  - enabled: 1
+    path: Assets/Scenes/01.2.2_Pavilion_Custom.unity
+    guid: 9cbf74e19f65d3046bf303baa2b20207
+  - enabled: 1
+    path: Assets/Scenes/01.1.1_KerfingPattern.unity
+    guid: 3230135d6b3487a4b8c2cd3b8c23fb81
+  - enabled: 1
+    path: Assets/Scenes/01.1.2_FabricationVideos.unity
+    guid: 0b28d79cd19efbf4da48f2d001064a69
+  - enabled: 1
+    path: Assets/Scenes/01.1.3_AssemblySequence.unity
+    guid: bf09170be493f194b988b6ed7c300ba9
+  m_configObjects: {}
