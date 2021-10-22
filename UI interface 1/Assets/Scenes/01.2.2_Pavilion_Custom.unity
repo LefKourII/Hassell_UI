@@ -3450,10 +3450,6 @@ MonoBehaviour:
   AROrigin: {fileID: 1029256730}
   generator: {fileID: 1142512921}
   arFunctionality: {fileID: 1739160757}
-  capsule: {fileID: 2915330157906413963, guid: 4e2fa61f40304f34c99aac09bfaf077e, type: 3}
-  sphere: {fileID: 8743709998104147615, guid: 0fe8eb51a4688c24e9dae75290dfc6bd, type: 3}
-  TrackedImageManager: {fileID: 1029256732}
-  XRReferenceImageLibrary: {fileID: 11400000, guid: b944d7127f2498d469583767edf35b86, type: 2}
 --- !u!4 &1739160759
 Transform:
   m_ObjectHideFlags: 0
@@ -4371,7 +4367,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!81 &2030319955
 AudioListener:
   m_ObjectHideFlags: 0
