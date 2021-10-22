@@ -31,7 +31,7 @@ public class ARFunctionality : MonoBehaviour
                 transform.rotation = hits[0].pose.rotation;
 
                 if (!visual.activeSelf)
-                    visual.SetActive(true);
+                    visual.SetActive(false);
             }
             else
                 visual.SetActive(false);
@@ -40,7 +40,7 @@ public class ARFunctionality : MonoBehaviour
 
     public void LockVisual()
     {
-        visual.SetActive(true);
+        visual.SetActive(false);
         visual.transform.position = ARData.position;
         visual.transform.rotation = ARData.rotation;
     }

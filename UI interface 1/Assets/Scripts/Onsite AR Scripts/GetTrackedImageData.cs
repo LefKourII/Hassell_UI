@@ -18,11 +18,15 @@ public class GetTrackedImageData : MonoBehaviour
     {
         if (AROrigin.trackablesParent.childCount > 0 && !ARData.activated)
         {
-            ARData.position = AROrigin.trackablesParent.GetChild(0).position;
-            ARData.rotation = AROrigin.trackablesParent.GetChild(0).rotation;
+            ARData.position = AROrigin.trackablesParent.GetChild(0).transform.position;
+            ARData.rotation = AROrigin.trackablesParent.GetChild(0).transform.rotation;
+            
+            generator.transform.position = AROrigin.trackablesParent.GetChild(0).transform.position;
+            generator.transform.rotation = AROrigin.trackablesParent.GetChild(0).transform.rotation;
+            generator.SetActive(true);
 
-            ActivateGenerator();
-            arFunctionality.LockVisual();
+            //ActivateGenerator();
+            //arFunctionality.LockVisual();
             arFunctionality.FadeDirections();
         }
     }
