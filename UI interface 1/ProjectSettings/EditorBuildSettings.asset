@@ -24,7 +24,7 @@ EditorBuildSettings:
     path: Assets/Scenes/01.3.0_Menu_OffSiteExp.unity
     guid: 8f55803e923a7be4ead7425c71beb7f2
   - enabled: 1
-    path: Assets/Scenes/01.3.1_ModuleLCA.unity
+    path: Assets/Scenes/02_Privacy Policy.unity
     guid: a38174bc68fbae04b941bc6b4665fdcc
   - enabled: 1
     path: Assets/Scenes/01.3.2_PavilionLCA.unity
